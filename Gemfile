@@ -41,8 +41,7 @@ gem 'bootstrap', '~> 5.3.3'
 
 
 
-#font awesome evan line
-gem "font-awesome-rails"
+gem 'font-awesome-sass', '~> 4.4.0'
 
 
 
