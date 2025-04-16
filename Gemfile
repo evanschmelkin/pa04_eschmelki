@@ -17,12 +17,10 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
-#moar gems
-gem 'importmap-rails'
-
 
 #just end  already
 gem 'propshaft'
+
 
 
 #evan line for scss
@@ -31,7 +29,7 @@ gem 'dartsass-sprockets'
 #why not?
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 
-gem 'sassc-rails', '>= 2.1.0'
+gem 'sassc-rails'
 
 
 #bootstrap evan line
@@ -40,19 +38,16 @@ gem 'bootstrap', '~> 5.3.3'
 
 
 
-gem 'turbolinks'
-
 
 
 
 #font awesome evan line
-gem "font-awesome-sass", "~> 6.7.2"
+gem "font-awesome-rails"
+
 
 
 #im like the gta v devs
 gem 'sqlite3'
-
-
 
 
 
@@ -93,3 +88,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "webpacker", "~> 5.4"

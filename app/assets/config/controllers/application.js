@@ -7,5 +7,5 @@ import { definitionsFromContext } from "stimulus/webpack-helpers"
 const application = Application.start()
 
 // Automatically load all controllers from the controllers folder
-const context = require.context("controllers", true, /\.js$/)
+const rcontext = require.context("controllers", true, /\.js$/)
 application.load(definitionsFromContext(context))

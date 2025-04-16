@@ -6,4 +6,8 @@
 # Add additional assets to the asset load path.
 # Rails.profile.config.assets.paths << Emoji.images_path
 
-Rails.application.config.assets.precompile += %w( profile.css profile.js )
+Rails.application.config.assets.precompile += %w( profile.scss profile.js )
+Rails.application.config.assets.precompile += %w( jquery.js )
+Rails.application.config.assets.paths += [
+  Rails.root.join("node_modules")
+]
