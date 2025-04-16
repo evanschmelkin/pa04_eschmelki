@@ -1,6 +1,7 @@
 //= link_tree ../images
 //= link_directory ../stylesheets .css
 //= link_directory ../javascripts .js
+//= link profile.js
 //= link application.js
 //= link controllers/application.js
 //= link controllers/hello_controller.js

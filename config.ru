@@ -1,4 +1,4 @@
-# This file is used by Rack-based servers to start the application.
+# This file is used by Rack-based servers to start the profile.
 
 require_relative "config/environment"
 

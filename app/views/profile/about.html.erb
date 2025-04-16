@@ -2,7 +2,7 @@
 <header>
   <!-- Image and text -->
   <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="home.html">
+    <a class="navbar-brand" href="<%= root_path %>">
       <!--<img src="images/profile_image.jpg" width="30" height="30" class="d-inline-block align-top" alt="Prof. William Tarimo">-->
       <i class="fa-solid fa-user"></i>
       Evan Schmelkin
@@ -10,7 +10,7 @@
 
     <ul class="nav nav-pills">
       <li class="nav-item">
-        <a class="nav-link" id="button1" href="home.html"><i class="fas fa-home"></i> Home Page </a>
+        <a class="nav-link" id="button1" href="<%= root_path %>"><i class="fas fa-home"></i> Home Page </a>
       </li>
       <li class="nav-item">
         <a class="nav-link active" href="about.html"><i class="fas fa-info-circle"></i> About Me </a>
@@ -19,14 +19,6 @@
       <li class="nav-item">
         <a class="nav-link" href="blog.html"><i class="fa-solid fa-blog"></i> Blog </a>
       </li>
-      <li>
-        <a class="nav-link" href="projects.html"><i class="fa-solid fa-laptop-code"></i> Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="resume.html"><i class="fa-solid fa-file"></i> Resume</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="blognobootstrap.html"><i class="fa-solid fa-blog"></i> Blog with no Bootstrap </a>
 
     </ul>
   </nav>
@@ -42,6 +34,6 @@
     <p>I am a current undergraduate student at Connecticut College studying Computer Science with a minor in Government. I became interested in Computer Science as a result of my interest in building computers and tinkering with software. This lifelong interest with optimizing the performance of computers along with my interest in public policy guide my studies at Connecticut College.
       </br>
       I am interested in opportunities for internships in the New York City/Long Island area for the summer of 2025! Feel free to reach out!</p>
-
+    <%= image_tag "nzxt-phantom-530-price.jpg", alt: "Image 01" %>
   </div>
 </div>

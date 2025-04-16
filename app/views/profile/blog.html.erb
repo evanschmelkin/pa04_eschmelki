@@ -1,7 +1,7 @@
 <header> <!-- no need to recreate this header area in css -->
   <!-- Image and text -->
   <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="home.html">
+    <a class="navbar-brand" href="<%= root_path %>">
       <!--<img src="images/profile_image.jpg" width="30" height="30" class="d-inline-block align-top" alt="Prof. William Tarimo">-->
       <i class="fa-solid fa-user"></i>
       Evan Schmelkin
@@ -9,7 +9,7 @@
 
     <ul class="nav nav-pills">
       <li class="nav-item">
-        <a class="nav-link" id="button1" href="home.html"><i class="fas fa-home"></i> Home Page </a>
+        <a class="nav-link" id="button1" href="<%= root_path %>"><i class="fas fa-home"></i> Home Page </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="about.html"><i class="fas fa-info-circle"></i> About Me </a>
@@ -18,14 +18,6 @@
       <li class="nav-item">
         <a class="nav-link active" href="blog.html"><i class="fa-solid fa-blog"></i> Blog </a>
       </li>
-      <li>
-        <a class="nav-link" href="projects.html"><i class="fa-solid fa-laptop-code"></i> Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="resume.html"><i class="fa-solid fa-file"></i> Resume</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="blognobootstrap.html"><i class="fa-solid fa-blog"></i> Blog with no Bootstrap </a>
 
     </ul>
   </nav>
@@ -46,5 +38,6 @@
     <div class="col-sm">
       <p>The New York Yankees have made moves since losing Juan Soto to the New York Mets during the offseason. New signings Cody Bellinger and Paul Goldschmidt will supplement the lineup led by Aaron Judge. Last season, Aaron Judge had the highest Wins above Replacement (WAR) in the American league and the Yankees made it to the World Series, losing to the Los Angeles Dodgers. I plan to go to a bunch of Yankees home games this season. I went to a Yankees game against the 2024 White Sox last year, a team that finished with the most losses since the 1899 Cleveland Spiders.</p>
     </div>
+    <%= image_tag "baseballbat.webp"%>
   </div>
 </div>
