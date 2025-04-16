@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.0.1"
+gem "rails", "~> 8.0.2"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 # Use the Puma web server [https://github.com/puma/puma]
@@ -17,14 +17,44 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
+#moar gems
+gem 'importmap-rails'
+
+
+#just end  already
+gem 'propshaft'
+
+
 #evan line for scss
 gem 'dartsass-sprockets'
 
+#why not?
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+
+gem 'sassc-rails', '>= 2.1.0'
+
+
 #bootstrap evan line
+
 gem 'bootstrap', '~> 5.3.3'
+
+
+
+gem 'turbolinks'
+
+
+
 
 #font awesome evan line
 gem "font-awesome-sass", "~> 6.7.2"
+
+
+#im like the gta v devs
+gem 'sqlite3'
+
+
+
+
 
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]

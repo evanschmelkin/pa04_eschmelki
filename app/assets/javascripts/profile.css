@@ -1,4 +1,8 @@
 /*
+ */
+
+
+/*
  * This is a manifest file that'll be compiled into profile.css.
  *
  * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
@@ -8,6 +12,9 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+@import "bootstrap";
+@import "font-awesome";
 
 
 /*
@@ -28,8 +35,6 @@ This is the custom styles.css page for custom CSS for my website
 importation and such
  */
 
-@import "bootstrap";
-@import "font-awesome";
 
 
 html {

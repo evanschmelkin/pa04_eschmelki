@@ -1,0 +1,20 @@
+default: &default
+  adapter: sqlite3
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: db/development.sqlite3
+
+test:
+  <<: *default
+  database: db/test.sqlite3
+
+production:
+  <<: *default
+  database: db/production.sqlite3
+  pool: 5
+  timeout: 5000
+  # The production database should be configured to use a real database,
+  # such as PostgreSQL or MySQL, for which you need to modify this configuration.

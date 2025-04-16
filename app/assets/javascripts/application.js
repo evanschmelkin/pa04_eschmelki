@@ -1,8 +1,7 @@
 //= require jquery
-//= require bootstrap
-//= require rails-ujs
-//= require activestorage
+//= require jquery_ujs
 //= require turbolinks
+//= require bootstrap-sprockets
 //= require_tree .
 import { Turbo } from "turbo-rails"
 import * as bootstrap from 'bootstrap'

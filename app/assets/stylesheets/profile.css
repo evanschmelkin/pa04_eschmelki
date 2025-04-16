@@ -1,0 +1,207 @@
+/*
+ */
+
+
+/*
+ * This is a manifest file that'll be compiled into profile.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * profile-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+
+@import "bootstrap";
+@import "font-awesome";
+
+
+/*
+Evan Schmelkin
+2/25/2025
+PA2
+Web Development
+Professor Tarimo
+styles.css
+This is the custom styles.css page for custom CSS for my website
+*/
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+/*
+importation and such
+ */
+
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.customcontainer {
+    width: 100%;
+    padding-right: 7.5rem;
+    padding-left: 7.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+#github:hover {
+    background-color: blueviolet;
+
+}
+
+#projectsjumbotron {
+    font-family : "Papyrus", serif;
+}
+
+
+#projectscard1 {
+    width: 1000px;
+    height: 100px;
+    background-color: red;
+}
+@keyframes redtolimegreen {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/*this is what will be animated */
+#projectscard1:hover {
+    animation-name: redtolimegreen;
+    animation-duration: 4s;
+}
+
+#jumbotronyankees {
+    color: #003087
+}
+
+#shell {
+    border-radius: 75%;
+}
+
+#resumebody{
+    background-color: #a6b5cc;
+}
+
+#resumecard {
+    width: 1000px;
+    height: 100px;
+    background-color: darkseagreen;
+}
+
+/* css for the no bootstrap page */
+
+.customrow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+.customrow > * {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-top: 0
+}
+
+.customcol-sm {
+    width: 100%;
+}
+@media (min-width: 576px) {
+    .customcol-sm {
+        width: 50%;
+    }
+}
+
+.customalert {
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    border-radius: 0.375rem;
+}
+
+.custombtn {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: transparent;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 0.375rem;
+    background-color:#0d6efd;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.custombtn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+
+}
+.custombtn-primary:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.custombtn-primary:focus {
+    shadow-rgb: 49, 132, 253;
+}
+
+.custombtn-active {
+    color: #fff;
+    background-color: #0a58ca;
+    border-color: #0a53be;
+    shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.custombtn-disabled {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+
+.custombtn-lg, .custombtn-group-lg > .custombtn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+}
