@@ -23,7 +23,7 @@ gem 'dartsass-sprockets'
 #bootstrap evan line
 gem 'bootstrap', '~> 5.3.3'
 
-#font awesome
+#font awesome evan line
 gem "font-awesome-sass", "~> 6.7.2"
 
 
