@@ -34,7 +34,7 @@ gem 'sassc-rails'
 
 #bootstrap evan line
 
-gem 'bootstrap', '~> 5.3.3'
+gem 'bootstrap', '~> 5.3.5'
 
 
 
